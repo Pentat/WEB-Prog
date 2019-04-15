@@ -1,0 +1,175 @@
+/*index.php*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{text-align: justify;
+    text-align: center;}
+
+header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background:url("./pics/ELEVEN.JPG");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h2 {
+    background:rgba(0,0,0,0.5);
+    height:auto;
+    color:whitesmoke;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.input{
+    background-color: #333;
+    border:0px;
+    margin:0px;
+    padding:0px;
+}
+
+nav .input {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav .input:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+}
+
+/* Add a card effect for articles */
+.card {
+    border-radius: 10px;
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    color:whitesmoke;
+    margin-top: 10px; 
+}
+
+footer input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: center;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+footer input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+footer input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: center;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+footer input[type=email]:focus {
+    border: 3px solid #555;
+}
+
+footer input[type=submit]{
+    background-color: rgb(252, 252, 252);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+footer input[type=submit]{{
+    background-color: white;
+    color: black;
+    border: 2px solid GRAY;
+}
+
+footer input[type=submit]{ {background-color: GREY;}
+
+#sup {
+    resize:vertical;
+    overflow:auto; 
+}
+
+
+
