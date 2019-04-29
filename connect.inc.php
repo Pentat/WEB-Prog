@@ -9,9 +9,9 @@
 <?php
     session_start();
        $szerver = "localhost";
-       $szfel = "root";
-       $szjel = "Asdasd12";
-       $tabla = "mg";
+       $szfel = "id1083078_katkadevteam";
+       $szjel = "hurkakolbasz";
+       $tabla = "id1083078_mg";
        
        $kapcs = new mysqli($szerver, $szfel, $szjel, $tabla);
        

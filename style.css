@@ -51,6 +51,9 @@ nav a:hover {
     color: black;
 }
 
+#sec{
+    padding:10px;
+}
 
 .input{
     background-color: #333;

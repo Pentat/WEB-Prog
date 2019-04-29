@@ -11,6 +11,7 @@
             <header>
                 <h2>Admin</h2>
             </header>
+            <nav id="sec"></nav>
         <center>
             <form action="admin.php" method="POST">
                 <input type="search" name="ker" Placeholder="Keresés">

@@ -15,6 +15,7 @@
             ?>
         </h2>
     </header>
+    <nav id="sec"></nav>
     <body>
         <div class="left">
             <h2>Képfeltöltés</h2>
@@ -54,8 +55,8 @@
             <h2>Üzenet küldés</h2>
             <form method="POST" name="uzi" action="user.php">
                 <select name="val">
-                    <option value="1">Admin<option>
-                    <option value="1">Henrik<option>
+                    <option value="1">Admin</option>
+                    <option value="1">Henrik</option>
                 </select>
             </form>
         </div>
