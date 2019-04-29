@@ -1,80 +1,57 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  <link rel="shortcut icon" type="image/x-icon" href="letöltés.png" />
-  <title>Helpi</title>
-  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-  <meta charset="utf-8">
+  <html>
+    <head>
 
-  </head>
-  <body>
-  <?php
-    include('./connect.inc.php');
-  ?>
-
-  <header>
-    <h2>Ifjúsági Fejlesztő Műhely</h2>
-</header>
-
-  <nav>
-    <form action="index.php" method="POST" name="log">
-      <a href="galery.php">Galéria</a>
-      <a href="https://www.facebook.com/Helpi.Eleven">Eleven</a>
-      <a href="https://www.facebook.com/tizperc">10 Perc</a>
-      <a href="https://www.facebook.com/Helpi.KekElefant">Kék Elefánt</a>
-      <a style="float:right" href="logreg.php">Bejelentkezés</a>
-    </form>
-    
-</nav>
-
-  <div class="row">
-    <div class="leftcolumn">
-      <div class="card">
+    <?php
+      include('./connect.inc.php');
+    ?>
+    </head>
+    <body>
+      <header>
+        <h2>Ifjúsági Fejlesztő Műhely</h2>
+      </header>
 
 
-      
+
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>Rólunk</h2>
+            <p>
+              A Hírös Agóra Kulturális és Ifjúsági Központ külön szakmai stábot működtet a Kecskeméten élő fiatalok támogatása és fejlesztése céljából. Az önálló ifjúságfejlesztési ágazat feladata a helyi ifjúságpolitikai programok koordinálása és megvalósítása, a városrészi ifjúsági közösségi terek szakmai irányítása, az egyéni segítségnyújtó szolgáltatások működtetése (információnyújtás, tájékoztatás, tanácsadás, fejlesztés), valamint a fiatalok részvételét, társadalmi felelősségvállalását ösztönző lehetőségek támogatása (iskolai közösségi szolgálat, önkéntesség, érdekérvényesítés).
+            </p>
+            <p>
+              Szintén az ágazat a felelős az új nemzedékek jövője szempontjából különösen fontos környezettudatos szemlélet formálását segítő „zöld programok” szervezéséért, az e tevékenységekben részt vevő közösségek szakmai és módszertani támogatásáért. Az ágazat e szellemiségben szervezi táborait és szakmai programjait a Parádfürdői Ifjúsági Tábor és Erdei Iskola telephelyen is, melynek szakmai működtetéséért ugyancsak felel.
+            </p>
+          </div>
+        </div>
+
+        <div class="rightcolumn">
+
+          <div class="card">
+            <center>  
+              <a href="http://www.hirosagora.hu/helpi"><img src="./pics/index.jpeg"></a>      
+            </center>          
+          </div>
+
+          <div class="card">
+            <center>
+              <iframe src="https://www.youtube.com/embed/aWaebZfvfM8" height="300px" allowfullscreen></iframe>
+            </center>
+          </div>
+
+          <div class="card">
+            <video width="100%" allowfullscreen>
+              <source src="./pics/random.webm" type="video/webm">
+              Böngésző nem támogatja
+            </video>
+          <div>
+
+          <div class="card" >
+            
+          </div>
+            
+        </div>
       </div>
-    </div>
-
-    <div class="rightcolumn">
-
-      <div class="card">
-        <center>  
-          <a href="http://www.hirosagora.hu/helpi"><img src="./pics/index.jpeg"></a>      
-        </center>          
-      </div>
-
-      <div class="card">
-        <h3></h3>
-        <iframe src="https://www.youtube.com/aWaebZfvfM8" width="100%" allowfullscreen>
-        </iframe>
-      </div>
-
-      <div class="card"id="t">
-        <center>
-        <h3>Nyitva tartás:</h3>
-        <p>Hétköznap 09.00-15.30</p>
-        <p>Szombat 08.00-12.00</p>
-      <div>
-
-      <div class="card" >
-        
-      </div>
-    
-    </div>
-  </div>
-
-  <footer >
-    <h1>Support</h1>
-    <h3>Ha bármi gond van ird le</h3>
-    <form action="index.php" method="POST">
-      <input type="email" name="cím" placeholder="E-mail cím">
-      <br>
-      <input type="text" name="irás" id="sup" size="50"  placeholder="Ötletek,Meglátások,Problémák ">
-      <br>
-      <input type="submit" name="send" value="Küldés">
-    </form>
-        </footer>
-
-  </body>
-</html>
+    </body>
+  </html>
